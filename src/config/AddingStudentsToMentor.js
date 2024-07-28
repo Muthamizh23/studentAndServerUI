@@ -2,7 +2,7 @@ import axios from "axios";
 
 const AddingStudentsToMentor = async (body) => {
   const result = await axios.post(
-    "https://eduhub-karthee.herokuapp.com/assignmentor/newMentor",
+    "https://studentandmentorserver-1.onrender.com/assignmentor/newMentor",
     body
   );
   return result;
